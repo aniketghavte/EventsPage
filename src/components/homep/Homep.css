@@ -1,0 +1,50 @@
+.homm{
+   
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(190px,auto));
+    grid-gap: 2rem;
+    align-items: center;
+    align-content: center;
+    text-align:start;
+    
+}
+.homm h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+}
+.slider{
+    align-self: end;
+    height: 200px;
+    width: 300px;
+}
+
+#main h2{
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: rgb(226, 116, 43);
+
+
+}
+#main h1{
+    color: #088178;
+
+}
+#main p{
+    color: #088178;
+    padding-top: 2px;
+
+}
+#main button{
+    
+    background-color: transparent;
+    color: #088178;
+    border: 0 ;
+    padding: 14px 80px 14px 65px;
+    padding-top: 25px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
